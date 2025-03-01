@@ -1,0 +1,10 @@
+const letra = prompt('Ingrese una letra').toLowerCase();
+
+switch (letra) {
+    case 'a': case 'e': case 'i': case 'o': case 'u':
+        alert('Es una vocal.');
+        break;
+    default:
+        alert('Es una consonante.');
+        break;
+}
